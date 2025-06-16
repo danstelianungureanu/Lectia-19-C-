@@ -4,7 +4,6 @@ class Program
 {
     static void Main()
     {
-        // Simulări:
         List<ILivrare> livrari = new List<ILivrare>
         {
             new LivrareDrona("Ion Popescu", "Str. Libertății 45", 2.5),

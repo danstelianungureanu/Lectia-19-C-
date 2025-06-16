@@ -28,6 +28,7 @@
         public abstract void DeliverPackage();
         public abstract void ShowDeliveryDetails();
     }
+    // Livrare prin dronă
     class LivrareDrona : Livrare
     {
         private double AltitudineZbor { get; set; } = 120.0;
